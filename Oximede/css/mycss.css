@@ -1,0 +1,5 @@
+.carousel-item :active {
+    max-height: 100px; /* Ajusta a la altura máxima deseada */
+    max-width: 80%; /* Mantiene la imagen al 100% del ancho del contenedor */
+    object-fit: cover; /* Ajusta la imagen para llenar el contenedor */
+}
