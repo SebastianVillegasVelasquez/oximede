@@ -306,8 +306,8 @@ button {
 
 .banner {
      position: relative;
-     background: url(../images/banner1.png);
-     background-size: 95% 95%;
+     background: url(../images/banner2.png);
+     background-size: 100%;
      background-position: center;
      background-repeat: no-repeat;
      min-height: 804px;
@@ -575,6 +575,8 @@ button {
 .gallery .gallery_img figure img {
      width: 100%;
      transition: all .5s;
+     min-height: 300px;
+
 }
 
 .gallery .gallery_img figure img:hover {
@@ -585,7 +587,7 @@ button {
 .gallery_text {
      text-align: center;
      background-color: #FFEF00;
-     height: 369px;
+     height: 300px;
      display: flex;
      align-items: center;
      justify-content: center;
